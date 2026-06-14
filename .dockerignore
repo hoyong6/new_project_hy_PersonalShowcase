@@ -1,0 +1,10 @@
+.DS_Store
+.git
+.next
+node_modules
+npm-debug.log*
+Dockerfile
+docker-compose.yml
+generated_assets
+output
+use-picture
