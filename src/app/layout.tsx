@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BrandMark } from "@/components/BrandMark";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -21,8 +22,8 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <header className="sticky top-0 z-50 border-b border-white/10 bg-ink/80 backdrop-blur-xl">
           <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-            <Link href="/" className="text-sm font-semibold tracking-[0.28em] text-white">
-              HY
+            <Link href="/" aria-label="HY 首页" className="transition opacity-95 hover:opacity-100">
+              <BrandMark />
             </Link>
             <div className="flex items-center gap-4 text-sm text-slate-300">
               <Link className="transition hover:text-white" href="/">

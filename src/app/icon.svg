@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="34%" cy="20%" r="78%">
+      <stop offset="0%" stop-color="#12365f" />
+      <stop offset="46%" stop-color="#07111f" />
+      <stop offset="100%" stop-color="#050811" />
+    </radialGradient>
+    <linearGradient id="signal" x1="112" y1="124" x2="410" y2="372" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e6fbff" />
+      <stop offset="42%" stop-color="#6ee7f9" />
+      <stop offset="100%" stop-color="#8fb6d8" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#halo)" />
+  <path d="M58 132 182 70M42 252 246 150M268 78 456 0M332 196 508 108M74 430 224 356M292 442 470 352" stroke="#8fb6d8" stroke-width="10" stroke-linecap="round" opacity=".16" />
+  <path d="M96 122 256 58 416 122V304C416 374 350 418 256 456 162 418 96 374 96 304V122Z" fill="none" stroke="#6ee7f9" stroke-width="12" opacity=".42" />
+  <g transform="translate(99 106) scale(.55)">
+    <path d="M146 158V354M146 256H254M254 158V354" fill="none" stroke="url(#signal)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M296 158 360 254M424 158 360 254V354" fill="none" stroke="url(#signal)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="146" cy="158" r="13" fill="#e6fbff" />
+    <circle cx="424" cy="158" r="13" fill="#e6fbff" />
+    <circle cx="360" cy="354" r="13" fill="#e6fbff" />
+  </g>
+</svg>
