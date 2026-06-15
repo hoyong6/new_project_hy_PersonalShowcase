@@ -15,4 +15,5 @@ use-picture
 output
 README.md
 docs
-
+deploy/deploy-ssh.sh
+deploy/README-ssh.md
