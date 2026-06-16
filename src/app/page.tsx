@@ -84,11 +84,7 @@ export default function HomePage() {
         </section>
 
         <section className='mx-auto max-w-7xl px-5 py-20 sm:px-8'>
-          <SectionHeading
-            eyebrow='Skills'
-            title='技术栈分组'
-            description='首版以静态数据 SSR 输出，后续如果切换到 CMS 或数据库，页面结构不需要重写。'
-          />
+          <SectionHeading eyebrow='Skills' title='技术栈分组' description='目前接触的技术栈, AI技能扩展中。' />
           <div className='grid gap-5 md:grid-cols-2 lg:grid-cols-5'>
             {skillGroups.map(group => (
               <article key={group.title} className='rounded-lg border border-white/10 bg-white/[0.04] p-5'>
@@ -106,11 +102,7 @@ export default function HomePage() {
         </section>
 
         <section className='mx-auto max-w-7xl px-5 py-20 sm:px-8'>
-          <SectionHeading
-            eyebrow='Projects'
-            title='精选项目'
-            description='从简历中提炼最适合作为公开展示的项目，强调技术职责、难点和业务结果。'
-          />
+          <SectionHeading eyebrow='Projects' title='精选项目' description='精选项目，技术职责、难点和业务结果。' />
           <div className='grid gap-5 lg:grid-cols-2'>
             {projects.map(project => (
               <article key={project.title} className='rounded-lg border border-white/10 bg-white/[0.04] p-6'>
@@ -137,11 +129,7 @@ export default function HomePage() {
         </section>
 
         <section className='mx-auto max-w-7xl px-5 py-20 sm:px-8'>
-          <SectionHeading
-            eyebrow='Links'
-            title='站点入口'
-            description='旧官网和当前博客直接外链展示，新博客以预留位存在，后续只改配置即可上线。'
-          />
+          <SectionHeading eyebrow='Links' title='站点入口' description='目前上线的网站，后续网站扩展中' />
           <div className='grid gap-5 md:grid-cols-3'>
             {siteLinks
               .filter(link => link.enabled)
