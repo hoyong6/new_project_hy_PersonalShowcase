@@ -44,7 +44,7 @@ export default function HomePage() {
                 查看简历
               </Link>
               <a
-                href='https://www.akkc38.cn/'
+                href='https://blog.akkc38.cn/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:border-white hover:bg-white/10'>

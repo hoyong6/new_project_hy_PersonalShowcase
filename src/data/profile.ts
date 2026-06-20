@@ -7,8 +7,8 @@ export const profile = {
   highlights: ["React / Next.js / TypeScript", "Web3 钱包与合约交互", "Plasmo 浏览器插件", "Telegram Mini App", "Tailwind CSS / GSAP 动效"],
   publicContacts: [
     {
-      label: "当前博客",
-      href: "https://www.akkc38.cn/",
+      label: "技术博客",
+      href: "https://blog.akkc38.cn/",
     },
     {
       label: "旧官网案例",

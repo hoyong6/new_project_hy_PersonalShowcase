@@ -32,7 +32,7 @@ export default function RootLayout({
               <Link className="transition hover:text-white" href="/resume">
                 简历
               </Link>
-              <a className="transition hover:text-white" href="https://www.akkc38.cn/" target="_blank" rel="noopener noreferrer">
+              <a className="transition hover:text-white" href="https://blog.akkc38.cn/" target="_blank" rel="noopener noreferrer">
                 博客
               </a>
             </div>

@@ -5,7 +5,7 @@ export type SiteLink = {
   description: string;
   url?: string;
   status: SiteLinkStatus;
-  type: 'case' | 'blog' | 'future';
+  type: 'case' | 'blog';
   external: boolean;
   enabled: boolean;
 };
@@ -21,19 +21,20 @@ export const siteLinks: SiteLink[] = [
     enabled: true,
   },
   {
-    title: '当前个人博客',
+    title: '个人技术博客',
     description: '技术笔记与项目复盘，包含 React、浏览器插件、Web3、安全、工程化等内容。',
-    url: 'https://www.akkc38.cn/',
+    url: 'https://blog.akkc38.cn/',
     status: 'live',
     type: 'blog',
     external: true,
     enabled: true,
   },
   {
-    title: '新博客预留位',
-    description: '后续更新预留入口',
-    status: 'coming-soon',
-    type: 'future',
+    title: '旧个人博客',
+    description: '旧版博客入口仍然保留，方便查看历史文章、旧内容和迁移前记录。',
+    url: 'https://www.akkc38.cn/',
+    status: 'live',
+    type: 'blog',
     external: true,
     enabled: true,
   },

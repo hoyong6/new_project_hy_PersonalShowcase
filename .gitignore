@@ -17,3 +17,4 @@ README.md
 docs
 deploy/deploy-ssh.sh
 deploy/README-ssh.md
+DEPLOYMENT-INVENTORY.local.md
