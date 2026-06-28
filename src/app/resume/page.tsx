@@ -81,7 +81,7 @@ export default function ResumePage() {
 
       <section className="mb-16">
         <SectionHeading eyebrow="Skills" title="技能栈" />
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group) => (
             <article key={group.title} className="rounded-lg border border-white/10 bg-white/[0.04] p-5">
               <h2 className="mb-4 font-semibold text-white">{group.title}</h2>

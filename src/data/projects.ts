@@ -36,10 +36,14 @@ export const projects: Project[] = [
     achievements: ["独立负责前端整体开发与维护", "处理钱包适配、合约调用、多链切换与线上问题", "协调设计、后端和智能合约开发推进业务上线"],
   },
   {
-    title: "个人技术博客",
-    period: "长期维护",
-    summary: "自部署博客，记录前端、Web3、安全、浏览器插件和工程化实践。",
-    stack: ["Vue", "Nuxt", "Koa2", "MongoDB", "PM2", "Nginx"],
-    achievements: ["独立部署并维护博客系统", "沉淀 React Hooks、插件开发、Web3 和安全相关笔记", "作为后续新博客升级的内容基础"],
+    title: "AI Coding 个人新博客",
+    period: "2026.06 - 长期维护",
+    summary: "AI coding 辅助完成的新一代个人博客，覆盖博客前后台、旧内容迁移、线上部署和内容发布 workflow。",
+    stack: ["Next.js", "TypeScript", "MongoDB", "Docker", "Nginx", "AI Coding"],
+    achievements: [
+      "用 AI 协作完成需求拆解、Next.js App Router 页面/API、MongoDB 模型、Markdown 渲染、图片上传和权限控制",
+      "沉淀 Docker Compose、Nginx HTTPS、SSH/rsync 部署脚本与部署文档，支持 blog.akkc38.cn 持续更新",
+      "定制博客写作与落库 Skill，将 Markdown 文章、slug、标签和数据库同步流程标准化",
+    ],
   },
 ];

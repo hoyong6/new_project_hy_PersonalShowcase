@@ -4,6 +4,10 @@ export const skillGroups = [
     skills: ["React", "Next.js", "Vue", "TypeScript", "JavaScript", "Tailwind CSS", "Ant Design"],
   },
   {
+    title: "AI Coding",
+    skills: ["Codex 协作", "需求拆解", "代码审查", "脚本生成", "自动化发布", "博客 Skill"],
+  },
+  {
     title: "Build",
     skills: ["Vite", "Webpack", "Gulp", "ESLint", "模块化构建", "PC/移动端独立打包"],
   },
